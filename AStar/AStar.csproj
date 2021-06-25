@@ -52,6 +52,7 @@
     <Compile Include="AskStartFinishCells.Designer.cs">
       <DependentUpon>AskStartFinishCells.cs</DependentUpon>
     </Compile>
+    <Compile Include="AStar.cs" />
     <Compile Include="BoardGraphics.cs">
       <SubType>Form</SubType>
     </Compile>

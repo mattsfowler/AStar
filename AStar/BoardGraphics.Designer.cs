@@ -39,6 +39,8 @@ namespace AStar
             this.Name = "BoardGraphics";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.BoardGraphics_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BoardGraphics_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.BoardGraphics_KeyUp);
             this.ResumeLayout(false);
 
         }
